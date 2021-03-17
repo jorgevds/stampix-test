@@ -1,0 +1,34 @@
+{
+  "businessesBodyTag": {
+    "defaultMessage": "en boost merkengagement",
+    "description": "tagline below the first content sentence of the content box"
+  },
+  "businessesBodyText": {
+    "defaultMessage": "Leg emotionele banden",
+    "description": "first content sentence of the content box"
+  },
+  "businessesButtonText": {
+    "defaultMessage": "Stampix bedrijven",
+    "description": "text at the top of the content box"
+  },
+  "businessesHeaderText": {
+    "defaultMessage": "Voor bedrijven",
+    "description": "text at the top of the content box"
+  },
+  "consumersBodyTag": {
+    "defaultMessage": "en bestel prints in enkele kliks",
+    "description": "tagline below the first content sentence of the content box"
+  },
+  "consumersBodyText": {
+    "defaultMessage": "Installeer de Stampix app",
+    "description": "first content sentence of the content box"
+  },
+  "consumersButtonText": {
+    "defaultMessage": "Begin met printen",
+    "description": "text at the top of the content box"
+  },
+  "consumersHeaderText": {
+    "defaultMessage": "Voor klanten",
+    "description": "text at the top of the content box"
+  }
+}

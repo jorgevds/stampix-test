@@ -1,0 +1,50 @@
+{
+  "businessesBodyTag": [
+    {
+      "type": 0,
+      "value": "and brand engagement"
+    }
+  ],
+  "businessesBodyText": [
+    {
+      "type": 0,
+      "value": "Build emotional loyalty"
+    }
+  ],
+  "businessesButtonText": [
+    {
+      "type": 0,
+      "value": "Stampix for Business"
+    }
+  ],
+  "businessesHeaderText": [
+    {
+      "type": 0,
+      "value": "For businesses"
+    }
+  ],
+  "consumersBodyTag": [
+    {
+      "type": 0,
+      "value": "and order prints in just a few clicks"
+    }
+  ],
+  "consumersBodyText": [
+    {
+      "type": 0,
+      "value": "Install the Stampix App"
+    }
+  ],
+  "consumersButtonText": [
+    {
+      "type": 0,
+      "value": "Start printing"
+    }
+  ],
+  "consumersHeaderText": [
+    {
+      "type": 0,
+      "value": "For consumers"
+    }
+  ]
+}

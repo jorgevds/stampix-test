@@ -1,0 +1,34 @@
+{
+  "businessesBodyTag": {
+    "defaultMessage": "et engagement de la marque",
+    "description": "tagline below the first content sentence of the content box"
+  },
+  "businessesBodyText": {
+    "defaultMessage": "Faire une loyauté émotionelle",
+    "description": "first content sentence of the content box"
+  },
+  "businessesButtonText": {
+    "defaultMessage": "Stampix pour entreprises",
+    "description": "text at the top of the content box"
+  },
+  "businessesHeaderText": {
+    "defaultMessage": "Pour entreprises",
+    "description": "text at the top of the content box"
+  },
+  "consumersBodyTag": {
+    "defaultMessage": "commandez les photos en secondes",
+    "description": "tagline below the first content sentence of the content box"
+  },
+  "consumersBodyText": {
+    "defaultMessage": "Installez l'application Stampix",
+    "description": "first content sentence of the content box"
+  },
+  "consumersButtonText": {
+    "defaultMessage": "Commencer le tirage",
+    "description": "text at the top of the content box"
+  },
+  "consumersHeaderText": {
+    "defaultMessage": "Pour clients",
+    "description": "text at the top of the content box"
+  }
+}

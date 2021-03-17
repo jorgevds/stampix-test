@@ -1,0 +1,50 @@
+{
+  "businessesBodyTag": [
+    {
+      "type": 0,
+      "value": "en boost merkengagement"
+    }
+  ],
+  "businessesBodyText": [
+    {
+      "type": 0,
+      "value": "Leg emotionele banden"
+    }
+  ],
+  "businessesButtonText": [
+    {
+      "type": 0,
+      "value": "Stampix bedrijven"
+    }
+  ],
+  "businessesHeaderText": [
+    {
+      "type": 0,
+      "value": "Voor bedrijven"
+    }
+  ],
+  "consumersBodyTag": [
+    {
+      "type": 0,
+      "value": "en bestel prints in enkele kliks"
+    }
+  ],
+  "consumersBodyText": [
+    {
+      "type": 0,
+      "value": "Installeer de Stampix app"
+    }
+  ],
+  "consumersButtonText": [
+    {
+      "type": 0,
+      "value": "Begin met printen"
+    }
+  ],
+  "consumersHeaderText": [
+    {
+      "type": 0,
+      "value": "Voor klanten"
+    }
+  ]
+}

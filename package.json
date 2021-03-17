@@ -3,19 +3,36 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
     "@testing-library/user-event": "^12.8.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-intl": "^5.13.2",
     "react-scripts": "4.0.3",
+    "react-test-renderer": "^17.0.1",
+    "typescript": "^4.2.2",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "extractEn": "formatjs extract 'src/languages/original/EnglishLanguage.ts' --out-file src/languages/extracted/en.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
+    "extractFr": "formatjs extract 'src/languages/original/FrenchLanguage.ts' --out-file src/languages/extracted/fr.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
+    "extractNl": "formatjs extract 'src/languages/original/DutchLanguage.ts' --out-file src/languages/extracted/nl.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
+    "extract": "npm-run-all extractEn extractFr extractNl",
+    "compileEn": "formatjs compile src/languages/extracted/en.json --ast --out-file src/languages/compiled/en.json",
+    "compileFr": "formatjs compile src/languages/extracted/fr.json --ast --out-file src/languages/compiled/fr.json",
+    "compileNl": "formatjs compile src/languages/extracted/nl.json --ast --out-file src/languages/compiled/nl.json",
+    "compile": "npm-run-all compileEn compileFr compileNl"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +51,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@formatjs/cli": "^3.1.6",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/enzyme-react-intl": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-react-intl": "^2.0.6",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
   }
 }

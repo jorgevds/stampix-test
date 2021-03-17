@@ -1,0 +1,50 @@
+{
+  "businessesBodyTag": [
+    {
+      "type": 0,
+      "value": "et engagement de la marque"
+    }
+  ],
+  "businessesBodyText": [
+    {
+      "type": 0,
+      "value": "Faire une loyauté émotionelle"
+    }
+  ],
+  "businessesButtonText": [
+    {
+      "type": 0,
+      "value": "Stampix pour entreprises"
+    }
+  ],
+  "businessesHeaderText": [
+    {
+      "type": 0,
+      "value": "Pour entreprises"
+    }
+  ],
+  "consumersBodyTag": [
+    {
+      "type": 0,
+      "value": "commandez les photos en secondes"
+    }
+  ],
+  "consumersBodyText": [
+    {
+      "type": 0,
+      "value": "Installez l'application Stampix"
+    }
+  ],
+  "consumersButtonText": [
+    {
+      "type": 0,
+      "value": "Commencer le tirage"
+    }
+  ],
+  "consumersHeaderText": [
+    {
+      "type": 0,
+      "value": "Pour clients"
+    }
+  ]
+}
