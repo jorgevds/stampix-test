@@ -3,11 +3,11 @@ import { FormattedMessage } from "react-intl";
 import { ChildrenProp } from "../../Layout/Layout";
 
 interface ContentProps {
-  children?: ChildrenProp;
-  bg?: string;
-  headerText?: any;
-  bodyText?: string;
-  bodyTag?: string;
+  children: ChildrenProp;
+  bg: string;
+  headerText: string;
+  bodyText: string;
+  bodyTag: string;
 }
 
 const Content: React.FC<ContentProps> = ({
@@ -21,14 +21,14 @@ const Content: React.FC<ContentProps> = ({
     <section
       className={`relative hover-brightness row-start-1 row-end-4 hover-trigger flex flex-col justify-center w-full h-96 minlg:h-full text-lg text-petrol text-center sm:px-4 ${bg}`}
     >
-      <h1 className="mb-1 text-sm">
+      <h1 className="mb-1 text-sm text-gray">
         <FormattedMessage id={headerText} defaultMessage={headerText} />
       </h1>
       <article className="mx-auto mb-12">
         <h2 className="m-auto ">
           <FormattedMessage id={bodyText} defaultMessage={bodyText} />
         </h2>
-        <h3 className="">
+        <h3>
           <FormattedMessage id={bodyTag} defaultMessage={bodyTag} />
         </h3>
       </article>

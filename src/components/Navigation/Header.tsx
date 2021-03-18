@@ -13,11 +13,13 @@ const Header: React.FC<HeaderProps> = () => {
       <nav className="w-7/12 m-auto xxl:w-3/6 xxxl:w-2/6 sm:w-4/5 minlg:px-2">
         <ul className="flex text-xs text-white">
           <li>
-            <img
-              src={stampix}
-              className="w-3/5 stampix"
-              alt="Confetti background for our Stampix landing page"
-            />
+            <a href="/" rel="noopener noreferrer">
+              <img
+                src={stampix}
+                className="w-3/5 stampix"
+                alt="Confetti background for our Stampix landing page"
+              />
+            </a>
           </li>
           <li
             className={`my-auto ml-auto ${

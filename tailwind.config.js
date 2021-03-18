@@ -12,6 +12,7 @@ module.exports = {
         deepAubergine: "#5e1c47",
         black: "#1c1c1c",
         white: "#ffffff",
+        gray: "#808080",
       },
       backgroundImage: (theme) => ({
         "confetti-background": "url(./images/stampix-bg.jpeg)",
