@@ -64,7 +64,7 @@ Testing in React 17 was not easy. Enzyme's own adapter is only caught up to Reac
 To use translations with React Intl, you first have to define your translations. This can be done anywhere using the defineMessages function that comes with React Intl. You set the .json within the function, and then have to extract your translations. Once that's done, you need to compile your translations into even more .json. Since I was translating three times, for English, French, and Dutch, I found it bothersome to run three commands, and then three more, just to have my data ready. If I wanted to change translations, I would have to run six commands again. There had to be a better way. So I installed npm-run-all and set two scripts that each run three scripts, one runs the extract scripts and the other runs the compile scripts. I cut the script size down from n to two: if more language need to be added, n will increase, but my current setup means I will only ever have to run a constant two scripts. Pretty chuffed about that.
 
 ![From n to just two](https://user-images.githubusercontent.com/54646908/111588043-533fe180-87c3-11eb-8769-a631f5de9706.png)
-###### From n to just two 8ball:
+###### From n to just two :8ball:
 
 
 ## Conclusion
