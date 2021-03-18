@@ -4,6 +4,7 @@ import { IntlProvider } from "react-intl";
 import { LanguageContext } from "../../Context/Context";
 import Consumers from "./Content/Consumers";
 import Businesses from "./Content/Businesses";
+import { Loading } from "./Loading";
 
 interface LandingPageProps {}
 
@@ -37,10 +38,14 @@ const LandingPage: React.FC<LandingPageProps> = () => {
       locale={language}
       defaultLocale="en"
     >
-      <section className="w-7/12 m-auto overflow-hidden bg-white rounded-lg shadow-md xxxl:mt-20 xxxl:h-2/5 h-4/6 minlg:grid minlg:grid-rows-3 auto-cols-fr xxxl:w-2/6 xxl:w-3/6 sm:w-4/5 minlg:grid-cols-2 xl:h-3/5 md:h-full">
-        <Consumers />
-        <Businesses />
-      </section>
+      {Object.keys(compiledMessages).length > 1 ? (
+        <section className="w-7/12 m-auto overflow-hidden bg-white rounded-lg shadow-md xxxl:mt-20 xxxl:h-2/5 h-4/6 minlg:grid minlg:grid-rows-3 auto-cols-fr xxxl:w-2/6 xxl:w-3/6 sm:w-4/5 minlg:grid-cols-2 xl:h-3/5 md:h-full">
+          <Consumers />
+          <Businesses />
+        </section>
+      ) : (
+        <Loading />
+      )}
     </IntlProvider>
   );
 };

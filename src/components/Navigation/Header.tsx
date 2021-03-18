@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../../Context/Context";
-import stampix from "../../images/stampix-free-prints.png";
 import ContextButton from "../Button/ContextButton";
+import Logo from "../Images/Logo";
 
 interface HeaderProps {}
 
@@ -14,11 +14,7 @@ const Header: React.FC<HeaderProps> = () => {
         <ul className="flex text-xs text-white">
           <li>
             <a href="/" rel="noopener noreferrer">
-              <img
-                src={stampix}
-                className="w-3/5 stampix"
-                alt="Confetti background for our Stampix landing page"
-              />
+              <Logo whiteFilter={"stampix"} />
             </a>
           </li>
           <li
